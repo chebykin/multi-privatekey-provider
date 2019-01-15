@@ -1,0 +1,29 @@
+{
+  "name": "multi-privatekey-provider",
+  "version": "0.1.0",
+  "description": "Web3 provider with multiple privatekey support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chebykin/multi-privatekey-provider.git"
+  },
+  "keywords": [
+    "web3",
+    "ethereum"
+  ],
+  "author": "Nikita Chebykin <nikita@chebyk.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chebykin/multi-privatekey-provider/issues"
+  },
+  "homepage": "https://github.com/chebykin/multi-privatekey-provider#readme",
+  "devDependencies": {
+    "ethereumjs-wallet": "^0.6.3",
+    "web3": "^1.0.0-beta.37",
+    "web3-provider-engine": "^14.1.0",
+    "yamljs": "^0.3.0"
+  }
+}
